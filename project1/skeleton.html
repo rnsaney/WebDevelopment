@@ -1,255 +1,266 @@
+<!--
+Project 1
+Team Lead: 
+    Richard Saney
+Team Members:
+    Kathryn Soll
+    Paige Marogil
+    Frank Zhang
+-->
 <!DOCTYPE html>
 <html>
-	<head>
-        <style>
-            table {
-                border: 3px solid lightgrey;
-                border-radius: 10px;
-                width: 75%;
-                
-                }
-            th, td {
-                padding: 5px;
-                text-align: top;
-                text-align: left;
-            }
-            body {
-                background: url("moviebg.png");
-                background-repeat: repeat;
-                text-align: right;
-            }
-            #myDiv{
-                background-image: url("rancidbannerbg.png");
-                background-repeat: repeat-x;
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-				
-                    
-            }
-            #rating{
-                background-image: url("rottenlargebg.png");
-                background-repeat: repeat-x;
-                text-align: left;
-            }
-			div1 {
-				background-color: #E8DC9B;
-				width: 250px;
-				border: 2px solid grey;
-				padding: 2px;
-				margin: 2px;
-			}
-        </style>
-		<title>TMNT - Rancid Tomatoes</title>
-	
 
-		<meta charset="utf-8" />
-		<link href="movie.css" type="text/css" rel="stylesheet" />
-        
-	</head>
+<head>
+    <title>TMNT - Rancid Tomatoes</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="movie.css" type="text/css" rel="stylesheet" />
+</head>
 
-	<body>
-      
-        <div id = "myDiv">
-			<center><img src="rancidbanner.png" alt="Rancid Tomatoes" /></center> 
-		</div>
-        </br></br></br>
-		<font face = "Verdana">
-		<h1><center>TMNT (2007)</h1></center>
-		</font>
-        
-        <center><table>
+<body>
+    <div id="banner"> <img src="rancidbanner.png" alt="Rancid Tomatoes" /> </div>
+    <div id="tmntTitle">TMNT (2007)</div>
+    <div>
+        <table id="mainTable">
             <tr>
-                <td colspan = "2">
-            <div id="rating">
-                <img src="rottenlarge.png" alt="Rotten" />
-                <font size="72"><font face="Verdana"><font color="red">
-                    <big><big><big>
-                    33
-                    </big></big></big>
-                    </font></font></font>
-					<font color = "white" font face = "Verdana">
-			% &#40;out of 88 reviews&#41;
-            </div>
-			
-			</font></font>
-            </td>
-            <td rowspan = "2" bgcolor = "#A2B964">
-			
-                <div>
-                    <img src="overview.png" alt="general overview" />
-                </div>
+                <td colspan="2">
+                    <div id="rating">
+                        <img src="rottenlarge.png" alt="Rotten" />
+                        <span id="bigRatingNumber">33%</span>
+                        <span id="smallPercentInfo"> (out of 88 reviews)</span>
+                    </div>
+                </td>
+                <td rowspan="2" class="greenBackground">
+                    <div id="tmntPic">
+                        <img src="overview.png" alt="general overview" />
+                    </div>
+                    <dl>
+                        <dt>STARRING</dt>
+                        <dd>Patrick Stewart
+                            <br/> Mako
+                            <br/> Sarah Michelle Gellar
+                            <br/> Kevin Smith
+                        </dd>
 
-            <dl>
-			<font face = "Arial" font size = "2">
-                <dt><b>STARRING</b></dt>
-                <dd>Patrick Stewart <br /> Mako <br /> Sarah Michelle Gellar <br /> Kevin Smith</dd>
+                        <dt>DIRECTOR</dt>
+                        <dd>Kevin Munroe</dd>
 
-                <dt><b>DIRECTOR</b></dt>
-                <dd>Kevin Munroe</dd>
+                        <dt>RATING</dt>
+                        <dd>PG</dd>
 
-                <dt><b>RATING</b></dt>
-                <dd>PG</dd>
+                        <dt>THEATRICAL RELEASE</dt>
+                        <dd>Mar 23, 2007</dd>
 
-                <dt><b>THEATRICAL RELEASE</b></dt>
-                <dd>Mar 23, 2007</dd>
+                        <dt>MOVIE SYNOPSIS</dt>
+                        <dd>After the defeat of their old arch nemesis, the Shredder, the Turtles have grown apart as a family.</dd>
 
-                <dt><b>MOVIE SYNOPSIS</b></dt>
-                <dd>After the defeat of their old arch nemesis, the Shredder, the Turtles have grown apart as a family.</dd>
+                        <dt>MPAA RATING</dt>
+                        <dd>PG, for animated action violence, some scary cartoon images and mild language</dd>
 
-                <dt><b>MPAA RATING</b></dt>
-                <dd>PG, for animated action violence, some scary cartoon images and mild language</dd>
+                        <dt>RELEASE COMPANY</dt>
+                        <dd>Warner Bros.</dd>
 
-                <dt><b>RELEASE COMPANY</b></dt>
-                <dd>Warner Bros.</dd>
+                        <dt>RUNTIME</dt>
+                        <dd>90 mins</dd>
 
-                <dt><b>RUNTIME</b></dt>
-                <dd>90 mins</dd>
+                        <dt>GENRE</dt>
+                        <dd>Action/Adventure, Comedies, Childrens, Martial Arts, Superheroes, Ninjas, Animated Characters</dd>
 
-                <dt><b>GENRE</b></dt>
-                <dd>Action/Adventure, Comedies, Childrens, Martial Arts, Superheroes, Ninjas, Animated Characters</dd>
+                        <dt>BOX OFFICE</dt>
+                        <dd>$54,132,596</dd>
 
-                <dt><b>BOX OFFICE</b></dt>
-                <dd>$54,132,596</dd>
-
-                <dt><b>LINKS</b></dt>
-                <dd>
-				<ul>
-					<li><a href="http://www.ninjaturtles.com/">The Official TMNT Site</a></li>
-					<li><a href="http://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles/">RT Review</a></li>
-					<li><a href="http://www.rottentomatoes.com/">RT Home</a></li>
-				</ul>
-				</font></font>
-			</dd>
-		</dl>
-
-        </td></td>
+                        <dt>LINKS</dt>
+                        <dd>
+                            <a href="http://www.ninjaturtles.com/">The Official TMNT Site</a>
+                            <br/>
+                            <a href="http://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles/">RT Review</a>
+                            <br/>
+                            <a href="http://www.rottentomatoes.com/">RT Home</a>
+                        </dd>
+                    </dl>
+                </td>
             </tr>
-            <tr>
-            <td>
-			<font face = "Verdana" font size = "2">
-			
-				<p>
-		<div1>
-			<img src="rotten.gif" alt="Rotten" align = "top"/>
-			
-			<q><b>Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent corniness, the movie attempts to look polished and 'cool,' but the been-there animation can't compete with the then-cutting-edge puppetry of the 1990 live-action movie.</b></q>
-			
-		</p>
-		</p>
-		</div1>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Peter Debruge <br />
-			&emsp;&emsp;&ensp;<i>Variety</i>
-		</p>
+            <tr id="commentsSection">
+                <td class="commentColumn">
+                    <div class="commentBlock">
+                        <p class="comment">
+                            <img src="rotten.gif" alt="Rotten" align="top" />
+                            <q>Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent corniness, the movie attempts to look polished and 'cool,' but the been-there animation can't compete with the then-cutting-edge puppetry of the 1990 live-action movie.</q>
+                        </p>
+                        <table class="commentInfoTable">
+                            <tr>
+                                <td rowspan="2">
+                                    <img src="critic.gif" alt="Critic" align="top">
+                                </td>
+                                <td>Peter Debruge</td>
+                            </tr>
+                            <tr>
+                                <td>Variety</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="comment">
+                        <img src="fresh.gif" alt="Fresh" />
+                        <q draggable="true">TMNT is a fun, action-filled adventure that will satisfy longtime fans and generate a legion of new ones.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>Todd Gilchrist</td>
+                        </tr>
+                        <tr>
+                            <td>IGN Movies</td>
+                        </tr>
+                    </table>
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>It stinks!</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>
+                                Jay Sherman (unemployed)
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>The rubber suits are gone and they've been redone with fancy computer technology, but that hasn't stopped them from becoming dull.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>
+                                Joshua Tyler
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                CinemaBlend.com
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>The show was bad. Don't go see it.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>
+                                Freddy James
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                BredPlsReviews
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="commentColumn">
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>The turtles themselves may look prettier, but are no smarter; torn irreparably from their countercultural roots, our superheroes on the half shell have been firmly co-opted by the industry their creators once sought to spoof.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>Jeannette Catsoulis</td>
+                        </tr>
+                        <tr>
+                            <td>New York Times</td>
+                        </tr>
+                    </table>
 
-		<p>
-			<img src="fresh.gif" alt="Fresh" />
-			<q><b>TMNT is a fun, action-filled adventure that will satisfy longtime fans and generate a legion of new ones.</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Todd Gilchrist <br />
-			&emsp;&emsp;&ensp;<i>IGN Movies</i>
-		</p>
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>Impersonally animated and arbitrarily plotted, the story appears to have been made up as the filmmakers went along.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>Ed Gonzalez</td>
+                        </tr>
+                        <tr>
+                            <td>Slant Magazine</td>
+                        </tr>
+                    </table>
+                    <p class="comment">
+                        <img src="fresh.gif" alt="Fresh" />
+                        <q>The striking use of image and motion allows each sequence to leave an impression. It's an accomplished restart to this franchise.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>Mark Palermo</td>
+                        </tr>
+                        <tr>
+                            <td>Coast (Halifax, Nova Scotia)</td>
+                        </tr>
+                    </table>
 
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>It stinks!</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Jay Sherman (unemployed)
-		</p>
-
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>The rubber suits are gone and they've been redone with fancy computer technology, but that hasn't stopped them from becoming dull.</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Joshua Tyler <br />
-			&emsp;&emsp;&ensp;<i>CinemaBlend.com</i>
-		</p>
-
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>YOUR REVIEW HERE</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic"align="top" />
-			NAME <br />
-			&emsp;&emsp;&ensp;<i>PUBLICATION</i>
-		</p>
-        </td>
-		</font></font>
-        <td>
-		<font face = "Verdana" font size = "2">
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>The turtles themselves may look prettier, but are no smarter; torn irreparably from their countercultural roots, our superheroes on the half shell have been firmly co-opted by the industry their creators once sought to spoof.</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic"align="top" />
-			Jeannette Catsoulis <br />
-			&emsp;&emsp;&ensp;<i>New York Times</i>
-		</p>
-
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>Impersonally animated and arbitrarily plotted, the story appears to have been made up as the filmmakers went along.</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Ed Gonzalez <br />
-			&emsp;&emsp;&ensp;<i>Slant Magazine</i>
-		</p>
-
-		<p>
-			<img src="fresh.gif" alt="Fresh" />
-			<q><b>The striking use of image and motion allows each sequence to leave an impression. It's an accomplished restart to this franchise.</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Mark Palermo <br />
-			&emsp;&emsp;&ensp;<i>Coast (Halifax, Nova Scotia)</i>
-		</p>
-
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>The script feels like it was computer generated. This mechanical presentation lacks the cheesy charm of the three live action films.</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic" align="top"/>
-			Steve Rhodes <br />
-			&emsp;&emsp;&ensp;<i>Internet Reviews</i>
-		</p>
-
-		<p>
-			<img src="rotten.gif" alt="Rotten" />
-			<q><b>YOUR REVIEW HERE</b></q>
-		</p>
-		<p>
-			<img src="critic.gif" alt="Critic"align="top" />
-			NAME <br />
-			&emsp;&emsp;&ensp;<i>PUBLICATION</i>
-		</p>
-        </td>
-        </tr>
-        <tr>
-            <td colspan = "3">
-		<p><center>(1-10) of 88</p></center>
-        </td>
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>The script feels like it was computer generated. This mechanical presentation lacks the cheesy charm of the three live action films.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>Steve Rhodes</td>
+                        </tr>
+                        <tr>
+                            <td>Internet Reviews</td>
+                        </tr>
+                    </table>
+                    <p class="comment">
+                        <img src="rotten.gif" alt="Rotten" />
+                        <q>Really just an okay movie.</q>
+                    </p>
+                    <table class="commentInfoTable">
+                        <tr>
+                            <td rowspan="2">
+                                <img src="critic.gif" alt="Critic" align="top" />
+                            </td>
+                            <td>Jackie Doe</td>
+                        </tr>
+                        <tr>
+                            <td>UGAMovieCritics</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
-			</font></font>
-            
-        </table></center>
+            <tr class="greenBackground">
+                <td colspan="3">
+                    <p id="reviewsNumberInfo">
+                        (1-10) of 88
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div align="right" position: fixed>
+        <a href="validate-html.php"><img src="w3c-html.png" alt="Valid HTML5" /></a>
+        <br />
+        <a href="validate-css.php"><img src="w3c-css.png" alt="Valid CSS" /></a>
+    </div>
+</body>
 
-<div align = "right" position: fixed>
-			<a href="validate-html.php"><img src="w3c-html.png" alt="Valid HTML5" /></a><br />
-			<a href="validate-css.php"><img src="w3c-css.png" alt="Valid CSS" /></a>
-		</div>
-        
-	</body>
 </html>

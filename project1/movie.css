@@ -1,0 +1,145 @@
+/*
+Project 1
+Team Lead: 
+    Richard Saney
+Team Members:
+    Kathryn Soll
+    Paige Marogil
+    Frank Zhang
+*/
+
+th,
+td {
+    vertical-align: top;
+    text-align: left;
+    padding: 0px;
+}
+
+.commentColumn {
+    width: 258px;
+    /*Instructions said 47% of the 550px section*/
+}
+
+#commentSection:nth-child(1) {
+    margin-right: 17px;
+}
+
+.comment {
+    background-color: #E8DC9B;
+    border: 2px solid grey;
+    padding: 8px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-weight: bold;
+    font-size: 8pt;
+    border-radius: 10px;
+}
+
+.commentInfoTable {
+    margin-left: 10px;
+    font-size: 8pt;
+    margin-bottom: 20px;
+}
+
+.commentInfoTable tbody tr:nth-child(2) td {
+    font-style: italic;
+}
+
+body {
+    font-family: "Verdana";
+    background: url("bg-pic.png");
+    background-repeat: repeat;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+#banner {
+    background-image: url("rancidbannerbg.png");
+    background-repeat: repeat-x;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+    height: 50px;
+}
+
+#rating {
+    background-image: url("rottenlargebg.png");
+    background-repeat: repeat-x;
+    height: 83px;
+    width: 550px;
+}
+
+p > img {
+    margin-right: 5px;
+}
+
+#tmntTitle {
+    font-family: "Verdana";
+    text-shadow: 3px 3px #999999;
+    font-size: 24pt;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#bigRatingNumber {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    bottom: 20%;
+}
+
+#smallPercentInfo {
+    font-size: 12pt;
+    color: white;
+    position: relative;
+    bottom: 20%;
+}
+
+#tmntPic {
+    width: 250px;
+}
+
+#tmntPic > img {
+    width: 100%;
+}
+
+#mainTable {
+    border: 3px solid grey;
+    border-radius: 10px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+dl {
+    font-family: "Arial";
+    font-size: 8pt;
+    margin: 0px;
+    padding: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+#reviewsNumberInfo {
+    text-align: center;
+}
+
+.greenBackground {
+    background-color: #A2B964;
+}
