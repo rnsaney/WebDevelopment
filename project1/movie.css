@@ -22,6 +22,10 @@ td {
 
 #commentSection:nth-child(1) {
     margin-right: 17px;
+
+    img{
+        vertical-align: text-top;
+    }
 }
 
 .comment {
