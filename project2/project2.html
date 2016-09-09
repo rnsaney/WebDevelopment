@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function validateForm() {
+            var x = document.forms["inputForm"]["fname"].value;
+            if (x == null || x == "") {
+                //first name stuff
+                return false;
+            }
+            /*
+            When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
+            */
+            var y = document.forms["inputForm"]["lname"].value;
+            if(){
+                //last name stuff
+            }
+            /*
+            When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
+            */
+
+            var z = document.forms["inputForm"]["phoneNum"].value;
+            if(){
+                //phone number stuff
+            }
+            /*
+            The phoneNumber must contain ten digits, but could be formatted in a number of different ways such as 706.123.4567 or 706-123-4567. As soon as the focus leaves the telephone box, alert if the number does not contain ten digits, grouped as
+
+            <something>ddd<something>ddd<something>dddd.
+
+            Use Javascript Regular Expressions for this part.
+
+            */
+            
+            var v = document.forms["inputForm"]["cityName"].value;
+            if(){
+                //city stuff
+            }
+            /*
+            As the user types characters into the city field, check the contents as a prefix of the cities in your list. If the prefix identifies a unique city in the list, autocomplete the text box. If there is no city with that prefix, alert the user (Hint: use the onkeyup handler to capture the aftermath of a key press). When a city is identified, populate the zipCode selection list with all the appropriate zip codes for that city. 
+            */
+        }
+    </script>
+</head>
+
+<body> Please tell us who you are (Georgia residents only)
+    <form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post"> 
+    First Name  <input type="text" name="fname"> 
+    Last Name   <input type="text" name="lname"> </br> 
+    Telephone   <input type="text" name="phoneNum"> </br> 
+    City        <input type="text" name="cityName"> 
+    Zip code:   <input type="" name="zipCode"> </br>
+    
+        <input type="submit" value="Submit"> </form>
+</body>
+
+</html>
