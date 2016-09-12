@@ -9,6 +9,7 @@
                 //first name stuff
                 return false;
             }
+            
             /*
             When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
             */
@@ -41,12 +42,38 @@
             As the user types characters into the city field, check the contents as a prefix of the cities in your list. If the prefix identifies a unique city in the list, autocomplete the text box. If there is no city with that prefix, alert the user (Hint: use the onkeyup handler to capture the aftermath of a key press). When a city is identified, populate the zipCode selection list with all the appropriate zip codes for that city. 
             */
         }
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+        <script>
+        function toUpper(mystring) {
+            
+            var sp = mystring.split(‘ ‘);
+            var wl=0;
+            var f ,r;
+            var word = new Array();
+            for (i = 0 ; i < sp.length ; i ++ ) { 
+                f = sp[i].substring(0,1).toUpperCase(); 
+                r = sp[i].substring(1); 
+                word[i] = f+r; 
+            } 
+            newstring = word.join(' ');
+            return newstring; 
+        }
     </script>
-</head>
+    <script>
+        $(document).ready(function(){
+            $('#fname').blur(function(){
+                var mystring = document.getElementById('fname').value;
+                alert(mystring);
+                document.getElementById('fname').value = toUpper(mystring);
+        });
+     });
+    </script>
 
 <body> Please tell us who you are (Georgia residents only)
     <form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post"> 
-    First Name  <input type="text" name="fname"> 
+    First Name  <input type="text" name="fname" id="fname"> 
     Last Name   <input type="text" name="lname"> </br> 
     Telephone   <input type="text" name="phoneNum"> </br> 
     City        <input type="text" name="cityName"> 
@@ -54,5 +81,4 @@
     
         <input type="submit" value="Submit"> </form>
 </body>
-
 </html>
