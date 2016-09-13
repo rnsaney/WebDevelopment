@@ -96,19 +96,19 @@ Team Members:
 	</td>
 
 	<td align="left">First Name</td>
-      <td align="left"><input type="text" name="fname" id="fname" /></td>
+      <td align="left"><input type="text" name="fname" id="fname" pattern="[A-Z]{1}" required /></td>
     
     
       <td align="left">Last Name</td>
-      <td align="left"><input type="text" name="lname"/></td>
+      <td align="left"><input type="text" name="lname" pattern="[A-Z]{1}" required /></td>
     </tr>
     <tr>
       <td align="left">Telephone</td>
-      <td align="left"><input type="text" name="phoneNum"/></td>
+      <td align="left"><input type="text" name="phoneNum" pattern="^\d{3}-\d{3}-\d{4}$" required /></td>
     </tr>
 	<tr>
       <td align="left">City</td>
-      <td align="left"><input type="text" name="cityName"/></td>
+      <td align="left"><input type="text" name="cityName" pattern="[A-Z]{1}" required /></td>
     
 	<td align="left">Zip code</td>
       <!--<td align="left"><input type="select" name="zipCode"/></td>-->
