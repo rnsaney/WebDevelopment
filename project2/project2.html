@@ -1,7 +1,17 @@
 <!DOCTYPE html>
+<!--
+Project 2
+Team Lead: 
+    Richard Saney
+Team Members:
+    Kathryn Soll
+    Paige Marogil
+    Frank Zhang
+-->
 <html>
 
 <head>
+<body bgcolor="#fab7c2">
     <script>
         function validateForm() {
             var x = document.forms["inputForm"]["fname"].value;
@@ -71,14 +81,53 @@
      });
     </script>
 
-<body> Please tell us who you are (Georgia residents only)
-    <form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post"> 
-    First Name  <input type="text" name="fname" id="fname"> 
-    Last Name   <input type="text" name="lname"> </br> 
-    Telephone   <input type="text" name="phoneNum"> </br> 
-    City        <input type="text" name="cityName"> 
-    Zip code:   <input type="" name="zipCode"> </br>
+<body> 
+<form>
+<table>
+<!--<th>-->
+<div style="text-align:center">
+<b>Please tell us who you are (Georgia residents only)</b>
+</div>
+<!--</th>-->
+<tr>
+
     
-        <input type="submit" value="Submit"> </form>
+	<form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post"> 
+	</td>
+
+	<td align="left">First Name</td>
+      <td align="left"><input type="text" name="fname" id="fname" /></td>
+    
+    
+      <td align="left">Last Name</td>
+      <td align="left"><input type="text" name="lname"/></td>
+    </tr>
+    <tr>
+      <td align="left">Telephone</td>
+      <td align="left"><input type="text" name="phoneNum"/></td>
+    </tr>
+	<tr>
+      <td align="left">City</td>
+      <td align="left"><input type="text" name="cityName"/></td>
+    
+	<td align="left">Zip code</td>
+      <!--<td align="left"><input type="select" name="zipCode"/></td>-->
+	  <td align="left">
+	  <select name="zipCode">
+	  <!-- 
+	  this needs to be populated with the txt file
+-->	  
+    <option value="zip1">30002</option>
+    <option value="zip2">30003</option>
+  </select>
+  </td>
+    </tr>
+  </table>
+</form>
+    
+      <div style="text-align:center">
+	<input type="submit" value="Share personal info with our unscrupulous marketing staff"></form>
+	</div>
+</body>
 </body>
 </html>
