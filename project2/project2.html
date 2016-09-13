@@ -11,123 +11,130 @@ Team Members:
 <html>
 
 <head>
-<body bgcolor="#fab7c2">
-    <script>
-        function validateForm() {
-            var x = document.forms["inputForm"]["fname"].value;
-            if (x == null || x == "") {
-                //first name stuff
-                return false;
-            }
-            
-            /*
-            When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
-            */
-            var y = document.forms["inputForm"]["lname"].value;
-            if(){
-                //last name stuff
-            }
-            /*
-            When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
-            */
-
-            var z = document.forms["inputForm"]["phoneNum"].value;
-            if(){
-                //phone number stuff
-            }
-            /*
-            The phoneNumber must contain ten digits, but could be formatted in a number of different ways such as 706.123.4567 or 706-123-4567. As soon as the focus leaves the telephone box, alert if the number does not contain ten digits, grouped as
-
-            <something>ddd<something>ddd<something>dddd.
-
-            Use Javascript Regular Expressions for this part.
-
-            */
-            
-            var v = document.forms["inputForm"]["cityName"].value;
-            if(){
-                //city stuff
-            }
-            /*
-            As the user types characters into the city field, check the contents as a prefix of the cities in your list. If the prefix identifies a unique city in the list, autocomplete the text box. If there is no city with that prefix, alert the user (Hint: use the onkeyup handler to capture the aftermath of a key press). When a city is identified, populate the zipCode selection list with all the appropriate zip codes for that city. 
-            */
-        }
-        </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    </head>
         <script>
-        function toUpper(mystring) {
-            
-            var sp = mystring.split(‘ ‘);
-            var wl=0;
-            var f ,r;
-            var word = new Array();
-            for (i = 0 ; i < sp.length ; i ++ ) { 
-                f = sp[i].substring(0,1).toUpperCase(); 
-                r = sp[i].substring(1); 
-                word[i] = f+r; 
-            } 
-            newstring = word.join(' ');
-            return newstring; 
-        }
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('#fname').blur(function(){
-                var mystring = document.getElementById('fname').value;
-                alert(mystring);
-                document.getElementById('fname').value = toUpper(mystring);
-        });
-     });
-    </script>
+            function validateForm() {
+                var x = document.forms["inputForm"]["fname"].value;
+                if (x == null || x == "") {
+                    //first name stuff
+                    return false;
+                }
 
-<body> 
-<form>
-<table>
-<!--<th>-->
-<div style="text-align:center">
-<b>Please tell us who you are (Georgia residents only)</b>
-</div>
-<!--</th>-->
-<tr>
+                /*
+                When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
+                */
+                var y = document.forms["inputForm"]["lname"].value;
+                if () {
+                    //last name stuff
+                }
+                /*
+                When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
+                */
 
-    
-	<form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post"> 
-	</td>
+                var z = document.forms["inputForm"]["phoneNum"].value;
+                if () {
+                    //phone number stuff
+                }
+                /*
+                The phoneNumber must contain ten digits, but could be formatted in a number of different ways such as 706.123.4567 or 706-123-4567. As soon as the focus leaves the telephone box, alert if the number does not contain ten digits, grouped as
 
-	<td align="left">First Name</td>
-      <td align="left"><input type="text" name="fname" id="fname" pattern="[A-Z]{1}" required /></td>
-    
-    
-      <td align="left">Last Name</td>
-      <td align="left"><input type="text" name="lname" pattern="[A-Z]{1}" required /></td>
-    </tr>
-    <tr>
-      <td align="left">Telephone</td>
-      <td align="left"><input type="text" name="phoneNum" pattern="^\d{3}-\d{3}-\d{4}$" required /></td>
-    </tr>
-	<tr>
-      <td align="left">City</td>
-      <td align="left"><input type="text" name="cityName" pattern="[A-Z]{1}" required /></td>
-    
-	<td align="left">Zip code</td>
-      <!--<td align="left"><input type="select" name="zipCode"/></td>-->
-	  <td align="left">
-	  <select name="zipCode">
-	  <!-- 
-	  this needs to be populated with the txt file
--->	  
-    <option value="zip1">30002</option>
-    <option value="zip2">30003</option>
-  </select>
-  </td>
-    </tr>
-  </table>
-</form>
-    
-      <div style="text-align:center">
-	<input type="submit" value="Share personal info with our unscrupulous marketing staff"></form>
-	</div>
+                <something>ddd<something>ddd<something>dddd.
+
+                Use Javascript Regular Expressions for this part.
+
+                */
+
+                var v = document.forms["inputForm"]["cityName"].value;
+                if () {
+                    //city stuff
+                }
+                /*
+                As the user types characters into the city field, check the contents as a prefix of the cities in your list. If the prefix identifies a unique city in the list, autocomplete the text box. If there is no city with that prefix, alert the user (Hint: use the onkeyup handler to capture the aftermath of a key press). When a city is identified, populate the zipCode selection list with all the appropriate zip codes for that city. 
+                */
+            }
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            function toUpper(mystring) {
+                var sp = mystring.split(' ');
+                var wl = 0;
+                var f, r;
+                var word = new Array();
+                for (var i = 0; i < sp.length; i++) {
+                    f = sp[i].substring(0, 1).toUpperCase();
+                    r = sp[i].substring(1);
+                    word[i] = f + r;
+                }
+                newstring = word.join(' ');
+                return newstring;
+            }
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#fname').focusout(function () {
+                    var mystring = document.getElementById('fname').value;
+                    document.getElementById('fname').value = toUpper(mystring);
+                });
+                $('#lname').focusout(function () {
+                    var mystring = document.getElementById('lname').value;
+                    document.getElementById('lname').value = toUpper(mystring);
+                });
+            });
+        </script>
+
+</head>
+
+<body bgcolor="#fab7c2">
+    <form>
+        <table>
+            <!--<th>-->
+            <div style="text-align:center">
+                <b>Please tell us who you are (Georgia residents only)</b>
+            </div>
+            <!--</th>-->
+            <tr>
+
+
+                <form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post">
+                    <td align="left">
+                        First Name</td>
+                    <td align="left">
+                        <input type="text" name="fname" id="fname" pattern="[A-Z]{1}" required />
+                    </td>
+
+
+                    <td align="left">Last Name</td>
+                    <td align="left">
+                        <input type="text" name="lname" id="lname" pattern="[A-Z]{1}" required />
+                    </td>
+
+                    <tr>
+                        <td align="left">Telephone</td>
+                        <td align="left">
+                            <input type="text" name="phoneNum" pattern="^\d{3}-\d{3}-\d{4}$" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">City</td>
+                        <td align="left">
+                            <input type="text" name="cityName" pattern="[A-Z]{1}" required />
+                        </td>
+
+                        <td align="left">Zip code</td>
+                        <!--<td align="left"><input type="select" name="zipCode"/></td>-->
+                        <td align="left">
+                            <select name="zipCode">
+                                <!-- this needs to be populated with the txt file -->
+                                <option value="zip1">30002</option>
+                                <option value="zip2">30003</option>
+                            </select>
+                        </td>
+                    </tr>
+        </table>
+        </form>
+
+        <div style="text-align:center">
+            <input type="submit" value="Share personal info with our unscrupulous marketing staff">
+        </div>
 </body>
-</body>
+
 </html>
