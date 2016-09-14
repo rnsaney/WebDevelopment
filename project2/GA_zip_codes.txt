@@ -1,3 +1,4 @@
+zipcode,cityName
 30002,Avondale Estates
 30003,Norcross
 30004,Alpharetta
