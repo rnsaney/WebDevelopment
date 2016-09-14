@@ -11,156 +11,60 @@ Team Members:
 <html>
 
 <head>
-    <script>
-        function validateForm() {
-            var x = document.forms["inputForm"]["fname"].value;
-            if (x == null || x == "") {
-                //first name stuff
-                return false;
-            }
-
-
-            var y = document.forms["inputForm"]["lname"].value;
-            if (false) {
-                //last name stuff
-            }
-            /*
-            When the user leaves the firstName and lastName fields, reformat the entries into proper case (uppercase first character and any character following a space or hyphen; all other chars lowercase). Do this as soon as the focus leaves the entry box.
-            */
-
-            var z = document.forms["inputForm"]["phoneNum"].value;
-            if (false) {
-                //phone number stuff
-            }
-            /*
-            The phoneNumber must contain ten digits, but could be formatted in a number of different ways such as 706.123.4567 or 706-123-4567. As soon as the focus leaves the telephone box, alert if the number does not contain ten digits, grouped as
-
-            <something>ddd<something>ddd<something>dddd.
-
-            Use Javascript Regular Expressions for this part.
-
-            */
-
-            var v = document.forms["inputForm"]["cityName"].value;
-            if (false) {
-                //city stuff
-            }
-            /*
-            As the user types characters into the city field, check the contents as a prefix of the cities in your list. If the prefix identifies a unique city in the list, autocomplete the text box. If there is no city with that prefix, alert the user (Hint: use the onkeyup handler to capture the aftermath of a key press). When a city is identified, populate the zipCode selection list with all the appropriate zip codes for that city. 
-            */
-        }
-    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="ga_zip_codes.js"></script>
     <script src="jquery-csv.js"></script>
-    <script>                
-        function toUpper(mystring) {
-            var sp = mystring.split(' ');
-            var f, r;
-            var word = new Array();
-            for (var i = 0; i < sp.length; i++) {
-                f = sp[i].substring(0, 1).toUpperCase();
-                r = sp[i].substring(1);
-                word[i] = f + r;
-            }
-            newstring = word.join(' ');
-            sp = newstring.split('-');
-            word = new Array();
-            for (var i = 0; i < sp.length; i++) {
-                f = sp[i].substring(0, 1).toUpperCase();
-                r = sp[i].substring(1);
-                word[i] = f + r;
-            }
-            newstring = word.join('-');
-            return newstring;
-        }
-    </script>
-    <script>
-        $(document).ready(function () {
-
-            //captalize the first name
-            $('#fname').focusout(function () {
-                var mystring = document.getElementById('fname').value;
-                document.getElementById('fname').value = toUpper(mystring);
-            });
-            //capatlize the last name
-            $('#lname').focusout(function () {
-                var mystring = document.getElementById('lname').value;
-                document.getElementById('lname').value = toUpper(mystring);
-            });
-            //alert if phone number is wrong
-            $('#phoneNum').focusout(function () {
-                var number = document.getElementById("phoneNum");
-                var regEx = /(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}/;
-                if (!(regEx.exec(number.value))) {
-                    window.alert(number.value + " is not a well formatted phone number." + "\nPlease use one of the following formats:" + "\n(###)-###-####" + "\nor\n###-###-####" + "\nor\n(###).###.####" + "\nor\n###.###.####");
-                }
-            });
-            //autocomplete the city and populate the zip code
-            $('#cityName').keyup(function () {
-                var csvString = zipcodeCityCSV;
-                //console.log(csvString);
-                var csvObj = $.csv.toObjects(csvString);
-                console.log(csvObj);
-                
-                
-            });
-        });
-    </script>
-
+    <script src="project2.js"></script>
 </head>
 
 <body bgcolor="#fab7c2">
     <form>
         <table>
-            <!--<th>-->
             <div style="text-align:center">
                 <b>Please tell us who you are (Georgia residents only)</b>
             </div>
-            <!--</th>-->
             <tr>
                 <form name="inputForm" action="takeInput.asp" onsubmit="return validateForm()" method="post">
                     <td align="left">
                         First Name</td>
                     <td align="left">
-                        <input type="text" name="fname" id="fname" pattern="[A-Z]{1}" required />
+                        <input type="text" name="fname" id="fname" pattern="^[A-Za-z\- ]+$" 
+                               title="Letters with spaces and '-' are allowed." required />
                     </td>
-
-
                     <td align="left">Last Name</td>
                     <td align="left">
-                        <input type="text" name="lname" id="lname" pattern="[A-Z]{1}" required />
+                        <input type="text" name="lname" id="lname" pattern="^[A-Za-z\- ]+$" title="Letters with spaces and '-' are allowed." required />
                     </td>
 
                     <tr>
                         <td align="left">Telephone</td>
                         <td align="left">
-                            <input type="text" name="phoneNum" id="phoneNum" pattern="^\d{3}-\d{3}-\d{4}$" required />
+                            <input type="text" name="phoneNum" id="phoneNum" pattern="(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}" title="Phone number format: (###) or ### followed by -###-#### or .###.####" required />
                         </td>
                     </tr>
                     <tr>
                         <td align="left">City</td>
                         <td align="left">
-                            <input type="text" name="cityName" id="cityName" pattern="[A-Z]{1}" required />
+                            <input type="text" name="cityName" id="cityName" pattern="^[A-Za-z\s]+$" title="Letters with spaces and '-' are allowed." required />
                         </td>
-
                         <td align="left">Zip code</td>
                         <!--<td align="left"><input type="select" name="zipCode"/></td>-->
                         <td align="left">
-                            <select name="zipCode">
+                            <select name="zipCode" id="zipCode">
                                 <!-- this needs to be populated with the txt file -->
-                                <option value="zip1">30002</option>
-                                <option value="zip2">30003</option>
                             </select>
                         </td>
                     </tr>
                 </form>
         </table>
 
-
         <div style="text-align:center">
             <input type="submit" value="Share personal info with our unscrupulous marketing staff">
         </div>
+        <!--Remove this debug span-->
+        <span>City Name Debug Span</span>
+        <br>
+        <span id="span1"></span>
     </form>
 </body>
 
