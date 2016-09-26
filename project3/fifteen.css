@@ -1,0 +1,104 @@
+body {   
+    text-align: center;
+    margin: 0 auto;
+}
+
+#puzzlearea {     
+    border-style: solid;
+    border-width: thick;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.box {
+    background: #2db34a;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    border-width: thin;
+    border-style: inset;
+    background-image: url(pikapic.png);
+}
+
+#pos1 {
+    top: 0px;
+    left: 0px;
+}
+
+#pos2 {
+    top: 0px;
+    left: 100px;
+}
+
+#pos3 {
+    top: 0px;
+    left: 200px;
+}
+
+#pos4 {
+    top: 0px;
+    left: 300px;
+}
+
+#pos5 {
+    top: 100px;
+    left: 0px;
+}
+
+#pos6 {
+    left: 100px;
+    top: 100px;
+}
+
+#pos7 {
+    top: 100px;
+    left: 200px;
+}
+
+#pos8 {
+    top: 100px;
+    left: 300px;
+}
+
+#pos9 {
+    top: 200px;
+    left: 0px;
+}
+
+#pos10 {
+    top: 200px;
+    left: 100px;
+}
+
+#pos11 {
+    top: 200px;
+    left: 200px;
+}
+
+#pos12 {
+    top: 200px;
+    left: 300px;
+}
+
+#pos13 {
+    top: 300px;
+    left: 0px;
+}
+
+#pos14 {
+    top: 300px;
+    left: 100px;
+}
+
+#pos15 {
+    top: 300px;
+    left: 200px;
+}
+
+#pos16 {
+    top: 300px;
+    left: 300px
+}
