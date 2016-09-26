@@ -4,8 +4,8 @@ body {
 }
 
 #puzzlearea {     
-    border-style: solid;
-    border-width: thick;
+    /*border-style: solid;
+    border-width: thick;*/
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -18,8 +18,9 @@ body {
     height: 100px;
     position: absolute;
     width: 100px;
-    border-width: thin;
-    border-style: inset;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
     background-image: url(pikapic.png);
 }
 
