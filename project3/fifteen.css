@@ -29,9 +29,8 @@ body {
     height: 100px;
     position: absolute;
     width: 100px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
+    outline: 5px solid black;
+    outline-offset: -5px;
     background-image: url(pikapic.png);
 }
 
