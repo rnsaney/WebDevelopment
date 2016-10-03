@@ -1,0 +1,1906 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Abra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Abra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kadabra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Aerodactyl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Aerodactyl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Alakazam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Alakazam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Arbok -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Arbok">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Arcanine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Arcanine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Articuno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Articuno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Beedrill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Beedrill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bellsprout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bellsprout">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weepinbell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Blastoise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Blastoise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bulbasaur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bulbasaur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ivysaur"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Butterfree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Butterfree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Caterpie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Caterpie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Metapod"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Chansey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Chansey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charizard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charizard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charmander -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charmander">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charmeleon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charmeleon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charmeleon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Charizard"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Clefable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Clefable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Clefairy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Clefairy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Clefable"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Cloyster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Cloyster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Cubone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Cubone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Marowak"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dewgong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dewgong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Diglett -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Diglett">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dugtrio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ditto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ditto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dodrio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dodrio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Doduo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Doduo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dodrio"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragonair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragonair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragonite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragonite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragonite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dratini -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dratini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dragonair"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Drowzee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Drowzee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hypno"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dugtrio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dugtrio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Eevee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Eevee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flareon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jolteon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vaporeon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ekans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ekans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Arbok"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electabuzz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electabuzz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electrode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electrode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Evolution_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Evolution_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kanto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Exeggcute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Exeggcute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Exeggutor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Exeggutor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Exeggutor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fearow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fearow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flareon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flareon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gastly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gastly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ghost"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Haunter"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gengar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gengar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ghost"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Geodude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Geodude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Graveler"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ghost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ghost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gloom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gloom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vileplume"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golbat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golbat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Goldeen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Goldeen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seaking"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golduck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golduck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Graveler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Graveler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golem"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grimer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grimer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Muk"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Growlithe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Growlithe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Arcanine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gyarados -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gyarados">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Haunter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Haunter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gengar"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ghost"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hitmonchan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hitmonchan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hitmonlee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hitmonlee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hitmonlee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Horsea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Horsea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seadra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hypno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Hypno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ivysaur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ivysaur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venosaur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jigglypuff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jigglypuff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Wigglytuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jolteon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jolteon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jynx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jynx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kabuto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kabuto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kabutops"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kabutops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kabutops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kadabra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kadabra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Alakazam"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kakuna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kakuna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Beedrill"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kangaskhan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kangaskhan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kanto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kanto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kingler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kingler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Koffing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Koffing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weezing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Krabby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Krabby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kingler"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Lapras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Lapras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Lickitung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Lickitung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machoke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machoke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machamp"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Machoke"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magikarp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magikarp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gyarados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magmar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magmar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magnemite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magnemite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magneton"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magneton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Magneton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mankey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mankey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Primeape"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Marowak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Marowak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Meowth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Meowth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Persian"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Metapod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Metapod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Butterfree"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mewtwo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mewtwo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Moltres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Moltres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mr._Mime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Mr._Mime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Muk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Muk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoqueen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoqueen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidorina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidorina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoqueen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidorino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidorino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoking"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ninetales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ninetales">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Oddish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Oddish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Gloom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Omanyte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Omanyte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Omastar"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Omastar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Omastar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Onix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Onix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Paras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Paras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Parasect"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Parasect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Parasect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Persian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Persian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgeot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgeot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgeotto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgeotto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgeot"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pidgeotto"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pikachu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pikachu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Raichu"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pinsir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Pinsir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwhirl"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwhirl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwhirl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwrath"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwrath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poliwrath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ponyta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ponyta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rapidash"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Porygon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Porygon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Primeape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Primeape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fighting"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psyduck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psyduck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golduck"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Raichu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Raichu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rapidash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rapidash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Raticate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Raticate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rattata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rattata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Raticate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rhydon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rhydon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rhyhorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rhyhorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rhydon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Rock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kanto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_12">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_20">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_22">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route_9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Route"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Sandshrew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Sandshrew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Sandslash"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Sandslash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Sandslash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ground"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Scyther -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Scyther">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seadra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seadra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seaking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seaking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Seel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Dewgong"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Shellder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Shellder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Cloyster"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Slowbro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Slowbro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Slowpoke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Slowpoke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Slowbro"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Snorlax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Snorlax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Spearow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Spearow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fearow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Squirtle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Squirtle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Wartortle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Evolution_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Evolution_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Evolution_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Starmie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Starmie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Psychic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Staryu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Staryu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Starmie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tangela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tangela">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tauros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tauros">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tentacool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tentacool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tentacruel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tentacruel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Tentacruel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kanto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vaporeon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vaporeon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venomoth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venomoth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venonat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venonat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venomoth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venosaur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Venosaur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Victreebel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Victreebel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vileplume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vileplume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Voltorb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Voltorb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electrode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vulpix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vulpix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Fire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Ninetales"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Wartortle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Wartortle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Blastoise"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weedle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weedle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Bug"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Kakuna"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weepinbell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weepinbell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Grass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Victreebel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weezing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Weezing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Wigglytuff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Wigglytuff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Zapdos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Zapdos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Electric"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Zubat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Zubat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Golbat"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Farfetch&apos;d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Farfetch&apos;d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Doduo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flying"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Normal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoran_(F) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoran_(F)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidorina"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoran_(M)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoran_(M) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidoran_(M)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Nidorino"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Poison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Stage_1"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Flareon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Jolteon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/kathryn/ontologies/2016/9/untitled-ontology-4#Vaporeon"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
