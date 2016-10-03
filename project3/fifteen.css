@@ -32,7 +32,7 @@ body {
     background-image: url(pikapic.png);
 }
 
-.boxHover:hover{
+.box:hover{
     outline: 5px solid red;
     color: red;
 }
