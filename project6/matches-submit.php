@@ -25,12 +25,15 @@ function checkPersona($matchPersona, $userPersona){
 }
 //Function to create match array
 function createMatches(){
+    //the array of strings from the singles.txt
 	global $singles;
+    //the current user info array (a string) 
 	global $userInfo;
 	$matches = $singles;
 	$arraySize = sizeof($matches);
 	
 	//Test for gender compatibility
+    //Filter the array of all users into only those that match
 	for ($i=0; $i<$arraySize; $i++){
 		$matchInfo = explode(",", $matches[$i]);
 		$location = $i+1;
@@ -59,10 +62,25 @@ function displayMatches(){
 		printMatches($rawMatch);
 	}
 }
+
+function mapUserNameToPictureFile($name){
+    $underlineNoSpaces = str_replace(" ","_",$name);
+    $lowercase = strtolower($underlineNoSpaces);
+    $filename = "Images/" . $lowercase . ".jpg";
+    echo $filename;
+    if(file_exists($filename)){
+        return $filename;
+    }
+    else{
+        return "https://webster.cs.washington.edu/images/nerdluv/user.jpg";
+    }
+}
+
 //Function to display matches
 function printMatches($rawMatch){
+    $imagefile = mapUserNameToPictureFile($rawMatch[0]);
 	echo "<div class='match'>
-		<p><img src='https://webster.cs.washington.edu/images/nerdluv/user.jpg' alt='user icon' />
+		<p><img src='" . $imagefile . "' alt='user icon' />
 		" . $rawMatch[0] . "</p>
 		<ul>
 			<li><strong>gender:</strong>" . $rawMatch[1] . "</li>
@@ -73,6 +91,7 @@ function printMatches($rawMatch){
 		</div>";
 }
 ?>
+
 
 <h1>Matches for <?=$userName?></h1>
 
