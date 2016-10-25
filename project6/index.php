@@ -21,7 +21,7 @@
 
 	<body>
 		<div id="bannerarea">
-			<img src="geeklove.png" alt="banner logo" /> <br />
+			<img src="geeklove.png" alt="banner logo" height="123" width="300" /> <br />
 			where meek geeks meet
 		</div>
 
