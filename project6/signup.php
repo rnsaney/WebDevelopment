@@ -17,7 +17,7 @@
 <ul>
 <li>
 <strong>Name:</strong>
-<input type="text" name="name" size="16" />
+<input type="text" name="name" size="16"/>
 </li>
 
 <li><strong>Gender:</strong>

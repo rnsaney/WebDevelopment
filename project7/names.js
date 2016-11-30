@@ -93,7 +93,6 @@ function pageData() {
 //This function puts the bars, rank number, and year into the graph
 function graphData(ajax) {
     console.log(ajax);
-	//NUM_CALLS++;
     if(ajax.responseXML){
         document.getElementById("graph").style.display = "";
         document.getElementById("norankdata").style.display = "none";
@@ -106,10 +105,6 @@ function graphData(ajax) {
             var bar = document.createElement("div");
             bar.innerHTML = rankNum;
             bar.className = bar.className + " ranking";
-            // This code compares makes the second name's bars blue 
-//            if (NUM_CALLS > 1) {
-//                bar.style.backgroundColor = "blue";									
-//            }
             // If the name is in top 10, attatch popular class
             if (rankNum >= 1 && rankNum <= 10) {
                 bar.className = bar.className + " popular";
@@ -119,18 +114,14 @@ function graphData(ajax) {
             } else {
                 bar.style.top = (250 - Math.floor((1000 - rankNum) / 4)) + "px";
             }
-
             //bar.style.display = "none";
             document.getElementById("graph").appendChild(bar);
-            //bar.appear();														//Makes the bars fade in
             bar.style.left = (leftCalculation) + "px";
-
             var year = document.createElement("label");
             year.innerHTML = rank[i].getAttribute("year");
             year.style.left = (leftCalculation) + "px";
             year.className = "year";
             document.getElementById("graph").appendChild(year);
-            //year.pulsate();														//Makes the years pulsate
         }
     } else {
         document.getElementById("graph").style.display = "none";

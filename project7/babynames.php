@@ -35,10 +35,6 @@
             if(isset($result[$name])) //capture a second listing of a name (male/female)
             {            
                 $result[$name."2"] = array("name" => $name, "gender" => $gender, "data" => $data);    
-//                echo json_encode($result[$name]);
-//                echo "<br>";
-//                echo json_encode($result[$name."2"]);            
-//                echo "<br>";
             }
             else {
                 $result[$name] = array("name" => $name, "gender" => $gender, "data" => $data);    
@@ -51,14 +47,19 @@
 
     if($_GET["type"] == "list")
     {        
+        $list = array();
         foreach($nameInfo as $info)
         {
-            echo $info->name . "\n";
+            $list[$info->get_name()] = $info->get_name() . "\n";            
         }
         foreach($nameRank as $info)
         {
-            echo $info->name . "\n";
-        }    
+            $list[$info["name"]] = $info["name"] . "\n";                        
+        }
+        foreach($list as $info)
+        {
+            echo $info;
+        }
     }
 
     if($_GET["type"] == "meaning")
@@ -82,6 +83,7 @@
         header("Content-type: text/xml");
         echo "<?xml version='1.0' encoding='UTF-8'?>";
         
+        $genderCorrect = true;
         if(isset($nameRank[$name]))
         {
             $genderCorrect = $nameRank[$name]["gender"] == $gender;
@@ -97,8 +99,8 @@
                 }
             }
         }
-        if(isset($nameRank[$name]))
-        {                        
+        if(isset($nameRank[$name]) && $genderCorrect)
+        {
             echo "<baby name='".$name."' gender='".$gender."'>";
             $year = 1890;
             foreach($nameRank[$name]["data"] as $rank)
@@ -107,7 +109,16 @@
                 $year = $year + 10;
             }
             echo "</baby>";
-        }        
+        }
     }
 
+    if($_GET["type"] == "graphDataNoMeaning"){        
+        foreach($nameRank as $rankinfo)
+        {
+            if(!isset($nameInfo[$rankinfo["name"]]))
+            {
+                echo json_encode($rankinfo) . "<br>";  
+            }            
+        }   
+    }
 ?>

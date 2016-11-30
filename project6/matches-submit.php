@@ -40,11 +40,14 @@ function createMatches(){
 		if ($matchInfo[1] == $userInfo[1]){
 			unset($matches[$i]); //remove same gender from array
 		}
-		else if ($matchInfo[4] != $userInfo[4]){
-			unset($matches[$i]); //remove different OS from array
-		}
-		else if (($matchInfo[2] < $userInfo[5] || $matchInfo[2] > $userInfo[6]) || ($userInfo[2] < $matchInfo[5] || $userInfo[2] > $matchInfo[6])){
+		else if ((
+            $matchInfo[2] < $userInfo[5] || 
+            $matchInfo[2] > $userInfo[6]) || 
+                 ($userInfo[2] < $matchInfo[5] || $userInfo[2] > $matchInfo[6])){
 			unset($matches[$i]); //remove ages outside range from array
+		}
+        else if ($matchInfo[4] != $userInfo[4]){
+			unset($matches[$i]); //remove different OS from array
 		}
 		else if (!checkPersona(str_split($matchInfo[3]), str_split($userInfo[3])))
 		{
@@ -67,7 +70,7 @@ function mapUserNameToPictureFile($name){
     $underlineNoSpaces = str_replace(" ","_",$name);
     $lowercase = strtolower($underlineNoSpaces);
     $filename = "Images/" . $lowercase . ".jpg";
-    echo $filename;
+    //echo $filename;
     if(file_exists($filename)){
         return $filename;
     }
