@@ -1,0 +1,38 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bg-1 { 
+    background-color: #6CE6CB; /* Teal */
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: #A898FD; /* Purple */
+    color: #ffffff;
+}
+
+.button {
+    border: none;
+    color: #535353;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+table, td {
+   border: 6px solid white;
+    text-align: center;
+}
+
+th {
+    
+    color: #FF8510;
+        text-align: right;
+    font-family: "Impact", sans-serif;
+    font-size: 50px;
+    
+}
+
