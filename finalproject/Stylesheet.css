@@ -36,3 +36,20 @@ th {
     
 }
 
+
+a {
+    color: white;
+}
+
+ .navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 4px;
+  }
+  .navbar-nav  li a:hover {
+      color: #6CE6CB !important;
+  }
