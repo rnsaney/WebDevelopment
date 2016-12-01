@@ -4,6 +4,11 @@ include 'navigation.php';
 include 'Clothes.php';
 include 'ClosetArray.php';
 
+if(isset($_COOKIE["username"]))
+{
+    echo "<h2>Hello ". $_COOKIE["username"] ."</h2>";
+}
+
 date_default_timezone_set('America/New_York');
 echo "The time is " . date("h:i");
 echo "</br>";
