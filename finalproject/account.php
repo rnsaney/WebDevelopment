@@ -1,5 +1,6 @@
 <?php
     include "navigation.php";
+
     $username = "";
     if(isset($_COOKIE["username"])) {
         $username = $_COOKIE["username"];
@@ -8,7 +9,6 @@
         $username = "unknown";
     }
     
-?>
     //account form
     echo '<h1>Account Information</h1>';
     echo '<form action="register.php" method="post">';

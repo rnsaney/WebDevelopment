@@ -4,13 +4,13 @@
 ?>
     <table>
         <tr>
-            <th>Color</th>
-            <th>Low Temp</th>
-            <th>Medium Temp</th>
-            <th>High Temp</th>
-            <th>Type</th>
-            <th>Clean</th>
-            <th>Description</th>
+            <th style="font-size: 28px">Color</th>
+            <th style="font-size: 28px">Low Temp</th>
+            <th style="font-size: 28px">Medium Temp</th>
+            <th style="font-size: 28px">High Temp</th>
+            <th style="font-size: 28px">Type</th>
+            <th style="font-size: 28px">Clean</th>
+            <th style="font-size: 28px">Description</th>
         </tr>
 <?php
 include 'Clothes.php';

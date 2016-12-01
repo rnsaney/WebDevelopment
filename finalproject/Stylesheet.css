@@ -27,18 +27,37 @@ table, td {
     text-align: center;
 }
 
+.categories {
+    color: #A898FD;    
+    font-family: "Impact", sans-serif;
+    font-size: 32px;
+}
+
 th {
     
     color: #FF8510;
-        text-align: right;
+    text-align: right;
     font-family: "Impact", sans-serif;
     font-size: 50px;
     
 }
 
+#hello {
+    color: #FF8510;    
+    font-family: "Impact", sans-serif;
+    font-size: 44px;
+}
 
-a {
-    color: white;
+#outfit {
+    font-size: 32px;    
+}
+
+#time {
+    font-size: 50px;
+}
+
+#temp {
+    font-size: 30px;
 }
 
  .navbar {
