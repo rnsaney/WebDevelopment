@@ -10,7 +10,7 @@
     }
     
     //account form
-    echo '<h1>Account Information</h1>';
+    echo '<h2>Account Information</h2>';
     echo '<form action="register.php" method="post">';
     echo 'Username: ' . $username;
     echo '<br>';

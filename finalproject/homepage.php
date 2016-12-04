@@ -1,10 +1,10 @@
 <html>
 
     <?php
-    include 'navigation.php';
-    //include 'temp.php';
+    include 'navigation.php';    
     include 'Clothes.php';
     include 'ClosetArray.php';
+    
     ?>
 
     <div class="container-fluid">
@@ -28,11 +28,12 @@
             </td>
         </tr>
         <tr>
-            <div style = "background-color:purple">
+          
                 <td id="outfit">
 
                             <?php
                                 $outfit = Clothes::makeoutfit(Closet::getCloset());
+                                //echo json_encode($outfit);
                                 foreach($outfit as $a)
                                 {                               
                                     echo $a->description;                                
@@ -41,10 +42,10 @@
                             ?>                    
 
                 </td>
-            </div>
             <td id="time">
                 <?php
                     date_default_timezone_set('America/New_York');
+                    echo "<span style='font-size: 30px'> TIME: </span></br>";
                     echo date("h:i");
                 ?>
             </td>

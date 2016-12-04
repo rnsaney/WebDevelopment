@@ -1,5 +1,6 @@
 <?php
-include 'temp.php';
+include_once 'temp.php';
+include_once 'Database.php';
 class Clothes {
     
     var $id;
@@ -10,11 +11,31 @@ class Clothes {
     var $type;
     var $username;
     var $clean;
-    var $description;
+    var $description;    
     
-    
-    function __construct(
-        $id,
+//    function __construct(
+//        $id,
+//        $color,
+//        $low,
+//        $medium,
+//        $high,
+//        $type,
+//        $username,
+//        $clean,
+//        $description
+//    ) {
+//        $this->id = $id;
+//        $this->color = $color;
+//        $this->low = $low;
+//        $this->medium = $medium;
+//        $this->high = $high;
+//        $this->type = $type;
+//        $this->username = $username;
+//        $this->clean = $clean;
+//        $this->description = $description;
+//    }
+//    
+    function __construct(       
         $color,
         $low,
         $medium,
@@ -24,7 +45,7 @@ class Clothes {
         $clean,
         $description
     ) {
-        $this->id = $id;
+        $this->id = null;
         $this->color = $color;
         $this->low = $low;
         $this->medium = $medium;
@@ -34,6 +55,107 @@ class Clothes {
         $this->clean = $clean;
         $this->description = $description;
     }
+    
+    static function mapRowToClothes($row)
+    {
+        $clothes = new Clothes(                
+            $row["color"],
+            $row["low"],
+            $row["medium"],
+            $row["high"],
+            $row["type"],
+            $row["username"],
+            $row["clean"],
+            $row["description"]
+        );
+        $clothes->id = $row["id"];
+        return $clothes;        
+    }
+    
+    //returns clothes with the id, or false if id is not found in DB
+    static function getClothesFromDB($clothes_id)
+    {        
+        $db = Database::getDB();
+        $sql = "SELECT * FROM Clothes c WHERE c.id = :id";
+        $stmt = $db->prepare($sql);
+        $result = $stmt->execute(array(":id" => $clothes_id));
+        $rows = $stmt->fetchAll();
+        if(sizeof($rows) > 0)
+        {            
+            $row = $rows[0];            
+            $clothes = new Clothes(                
+                $row["color"],
+                $row["low"],
+                $row["medium"],
+                $row["high"],
+                $row["type"],
+                $row["username"],
+                $row["clean"],
+                $row["description"]
+            );
+            $clothes->id = $clothes_id;
+            $result = $clothes;            
+        }
+        else {
+            $result = FALSE;            
+        }
+        return $result;
+    }
+    
+    static function getClosetFromDB($clothes_username)
+    {
+        $db = Database::getDB();
+        $sql = "SELECT * FROM Clothes c WHERE c.username = :username";
+        $stmt = $db->prepare($sql);
+        $result = $stmt->execute(array(":username" => $clothes_username));        
+        $rows = $stmt->fetchAll();        
+        $closet;
+        for($i = 0; $i < sizeof($rows); $i++)
+        {
+            $row = $rows[$i];
+            $clothes = Clothes::mapRowToClothes($row);
+            $closet[$i] = $clothes;
+        }
+        return $closet;
+    }
+    
+    public function updateClothesInDB()
+    {
+        $db = Database::getDB();
+        //set up query string        
+        $sql = "UPDATE Clothes c SET c.color = :color, c.low = :low, c.medium = :medium, c.high = :high, c.type = :type, c.clean = :clean, c.description = :description WHERE c.id = :id";
+        //prepare the statement
+        $stmt = $db->prepare($sql);
+        $stmt->execute(array(
+            ":color" => $this->color,
+            ":low" => $this->low,
+            ":medium" => $this->medium,
+            ":high" => $this->high,
+            ":type" => $this->type,
+            ":clean" => $this->clean,
+            ":description" => $this->description,
+            ":id" => $this->id
+        ));
+        return $stmt->rowCount();
+    }
+    
+    public function addClothesToDB() {
+        $db = Database::getDB();        
+        $sql = "INSERT INTO Clothes(color, low, medium, high, type, username, clean, description) VALUES (:color, :low, :medium, :high, :type, :username, :clean, :description)";        
+        //prepare the statement
+        $stmt = $db->prepare($sql);
+        $stmt->execute(array(
+            ":color" => $this->color,
+            ":low" => $this->low,
+            ":medium" => $this->medium,
+            ":high" => $this->high,
+            ":type" => $this->type,
+            ":username" => $this->username,
+            ":clean" => $this->clean,
+            ":description" => $this->description,
+        ));        
+        return $stmt->rowCount();
+    }    
     
     //static method Clothes[] makeoutfit(Clothes[]);
     public static function makeoutfit($Clothes){
